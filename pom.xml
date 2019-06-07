@@ -7,26 +7,16 @@
 		<version>1.0-SNAPSHOT</version>
 		<relativePath>../shop-parent</relativePath>
 	</parent>
-	<groupId>com.shop.web</groupId>
-	<artifactId>shop-web</artifactId>
-	<packaging>war</packaging>
+	<groupId>com.shop.base</groupId>
+	<artifactId>shop-base</artifactId>
+	<packaging>jar</packaging>
 	<version>1.0-SNAPSHOT</version>
-	<name>shop-web Maven Webapp</name>
+	<name>shop-base</name>
 	<url>http://maven.apache.org</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	<dependencies>
-		<dependency>
-			<groupId>com.shop.base</groupId>
-			<artifactId>shop-base</artifactId>
-			<version>${project.parent.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>com.shop.web.service</groupId>
-			<artifactId>shop-web-service</artifactId>
-			<version>${project.parent.version}</version>
-		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
@@ -34,7 +24,4 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-	<build>
-		<finalName>shop-web</finalName>
-	</build>
 </project>
